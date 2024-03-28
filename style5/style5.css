@@ -1,0 +1,66 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   background-image: url(../image3/miyya.jpg);
+   background-size: cover;
+}
+.main-wrapper{
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
+}
+.wrapper{
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   background-color: aliceblue;
+}
+.text{
+   padding: 30px;
+   font-size: 24px;
+   font-weight: 800;
+   text-align: center;
+}
+.card-wrapper{
+   display: flex;
+}
+.card{
+   max-width: 600px;
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   padding: 25px;
+}
+.card-img {
+   width: 130px;
+   height: 130px;
+   border-radius: 50%;
+}
+.card-description{
+   margin-bottom: 10px;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 22px;
+}
+card-name{
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 22px;
+}
+.card-1{
+   border-top: 1px solid #333;
+   border-right: 1px solid #333;
+   border-bottom: 1px solid #333;
+}
+.card-2{
+   border-top: 1px solid #333;
+   border-bottom: 1px solid #333;
+}
+.card-3{
+   border-right: 1px solid #333;
+}
+
